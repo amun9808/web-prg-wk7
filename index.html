@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muna Fancy</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .product img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+
+        .product p {
+            margin: 10px 0;
+        }
+
+        .registration-form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .registration-form h2 {
+            margin-bottom: 20px;
+        }
+
+        .registration-form .form-group {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Muna Fancy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Our Store</h1>
+        <p class="lead">Explore our wide range of products!</p>
+    </header>
+
+    <!-- Product Grid -->
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-4 col-lg-2 product">
+                <a href="earrings.html">
+                    <img src="images/earring.jpg" alt="Earrings" class="img-fluid">
+                    <p>Earrings</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 product">
+                <a href="jeans.html">
+                    <img src="images/jeans.jpg" alt="Jeans" class="img-fluid">
+                    <p>Jeans Pant</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 product">
+                <a href="kurtis.html">
+                    <img src="images/kurti.jpg" alt="Kurti" class="img-fluid">
+                    <p>Kurti</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 product">
+                <a href="shoes.html">
+                    <img src="images/shoes.jpg" alt="Shoes" class="img-fluid">
+                    <p>Shoes</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 product">
+                <a href="sunglasses.html">
+                    <img src="images/glasses.jpg" alt="Glasses" class="img-fluid">
+                    <p>Sunglasses</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="container registration-form">
+        <h2 class="text-center">Register Here</h2>
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Register</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <p>&copy; 2024 Muna Fancy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
